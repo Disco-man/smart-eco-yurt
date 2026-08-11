@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Smart Eco Yurt",
+    "slug": "smart-eco-yurt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0d3b2c"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smartecoyurt.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0d3b2c"
+      },
+      "package": "com.smartecoyurt.app"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
